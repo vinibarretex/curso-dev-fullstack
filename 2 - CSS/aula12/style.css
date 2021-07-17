@@ -1,0 +1,87 @@
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34,34);
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foto {
+    width: 200px;
+    border: 2px solid #ffffff; /* shorthand */
+    border-radius: 50%;
+    margin-top: 25px; /*alt + shift + a para comentar uma serie de linhas*/
+    margin-left: 500px;
+    margin: 30px 30px 0px;
+    box-shadow: 0px 0px 10px #959595;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: -1px;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: #3e3d3d;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+p {
+    line-height: 25px;
+    margin-top: 0px;
+}
+
+.social-links {
+    text-decoration: none;
+}
+
+.social-icons {
+    width: 30px;
+}
+
+.instagram {
+    margin: 0 15px;
+}
+
+.facebook {
+    border-radius: 5px;
+}
+
+.jobs-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

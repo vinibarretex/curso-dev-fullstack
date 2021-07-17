@@ -1,0 +1,27 @@
+body {
+    background: #dfdfdf;
+}
+
+p {
+    color: rgb(34, 34,34);
+}
+
+.foto {
+    /*
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    */
+
+    /*dessa maneira eu implemento as 3 propriedades em uma unica linha*/
+    width: 200px;
+    border: 2px solid gray; /* shorthand */
+    border-radius: 50%;
+    /* border-radius: 50% 0 50% 0; altera todas as extremidades com o valor digitado e se lê em sentido horário. 1º valor = canto superior esquerdo */
+    /*https://www.w3schools.com/css/css_border.asp*/
+}
+
+.java {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
